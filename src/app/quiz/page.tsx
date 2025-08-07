@@ -155,7 +155,14 @@ export default function Quiz() {
   const [secilenCevaplar, setSecilenCevaplar] = useState<number[]>([]);
   const [skor, setSkor] = useState(0);
   const [quizBitti, setQuizBitti] = useState(false);
-  const [sorular, setSorular] = useState<any[]>([]);
+  // Soru tipini tanımla
+  type Soru = {
+    soru: string;
+    secenekler: string[];
+    dogruCevap: number;
+    aciklama?: string;
+  };
+  const [sorular, setSorular] = useState<Soru[]>([]);
 
   const getZorlukRengi = (zorluk: string) => {
     switch(zorluk) {
@@ -395,7 +402,7 @@ export default function Quiz() {
                     onClick={() => quizuBaslat(quiz.id)}
                     className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors font-medium"
                   >
-                    Quiz'e Başla →
+                    Quiz&apos;e Başla →
                   </button>
                 </div>
                 
@@ -423,7 +430,7 @@ export default function Quiz() {
             <div className="text-center">
               <div className="text-4xl mb-4">🔄</div>
               <h3 className="font-bold mb-2">Tekrar Et</h3>
-              <p className="text-blue-100">Yanlış yaptığın konuları tekrar çalış ve quiz'i yeniden dene.</p>
+              <p className="text-blue-100">Yanlış yaptığın konuları tekrar çalış ve quiz&apos;i yeniden dene.</p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">📈</div>

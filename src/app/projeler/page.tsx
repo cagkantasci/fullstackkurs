@@ -220,8 +220,8 @@ export default function Projeler() {
             🎯 Proje Portföyü
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Her hafta bir proje ile öğrendiklerini pekiştir. Bu projeler portfolio'na eklayabilir, 
-            iş görüşmelerinde gösterebilir ve GitHub'da paylaşabilirsin.
+            Her hafta bir proje ile öğrendiklerini pekiştir. Bu projeler portfolio&apos;na eklayabilir, 
+            iş görüşmelerinde gösterebilir ve GitHub&apos;da paylaşabilirsin.
           </p>
         </div>
 

@@ -73,8 +73,8 @@ export default function Home() {
             <span className="block text-blue-600">Full Stack Developer Kursu</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Sıfırdan ileri seviyeye kadar web geliştirme öğrenin. HTML, CSS, JavaScript'ten 
-            React, Node.js ve MongoDB'ye kadar her şey burada!
+            Sıfırdan ileri seviyeye kadar web geliştirme öğrenin. HTML, CSS, JavaScript&apos;ten 
+            React, Node.js ve MongoDB&apos;ye kadar her şey burada!
           </p>
 
           {/* Progress Overview */}
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <div className="flex justify-between text-sm text-gray-600">
               <span>Tamamlanan Dersler: {completedLessons.size}</span>
-              <span>Tamamlanan Quiz'ler: {completedQuizzes.size}</span>
+              <span>Tamamlanan Quiz&apos;ler: {completedQuizzes.size}</span>
             </div>
             <div className="text-center mt-2 font-semibold text-blue-600">
               %{getCompletionPercentage()} Tamamlandı
@@ -120,7 +120,7 @@ export default function Home() {
           <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
             <div className="text-4xl mb-4">💡</div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Interaktif Öğrenme</h3>
-            <p className="text-gray-600">Kodlama egzersizleri, quiz'ler ve gerçek projelerle öğrendiklerinizi pekiştirin.</p>
+            <p className="text-gray-600">Kodlama egzersizleri, quiz&apos;ler ve gerçek projelerle öğrendiklerinizi pekiştirin.</p>
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
